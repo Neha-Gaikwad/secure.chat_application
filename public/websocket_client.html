@@ -2,22 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebSocket Client</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="client-container">
-    <h2>WebSocket Client</h2>
-    <div id="messages"></div>
-    <form id="message-form">
-      <div class="form-group">
-        <label for="message">Message</label>
-        <input type="text" id="message" required>
-      </div>
-      <button type="submit">Send</button>
-    </form>
-  </div>
+  <h2>WebSocket Client</h2>
+  <div id="messages"></div>
+
+  <h3>Encrypt a File</h3>
+  <form id="encrypt-form">
+    <input type="file" id="encrypt-file" />
+    <button type="submit">Encrypt File</button>
+  </form>
+
+  <h3>Decrypt a File</h3>
+  <form id="decrypt-form">
+    <input type="file" id="decrypt-file" />
+    <button type="submit">Decrypt File</button>
+  </form>
+
+  <script src="websocket_client.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebSocket Client</title>
+</head>
+<body>
+  <h2>WebSocket Client</h2>
+  <div id="messages"></div>
+
+  <h3>Encrypt a File</h3>
+  <form id="encrypt-form">
+    <input type="file" id="encrypt-file" />
+    <button type="submit">Encrypt File</button>
+  </form>
+
+  <h3>Decrypt a File</h3>
+  <form id="decrypt-form">
+    <input type="file" id="decrypt-file" />
+    <button type="submit">Decrypt File</button>
+  </form>
+
+  <script src="websocket_client.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebSocket Client</title>
+</head>
+<body>
+  <h2>WebSocket Client</h2>
+  <div id="messages"></div>
+
+  <h3>Encrypt a File</h3>
+  <form id="encrypt-form">
+    <input type="file" id="encrypt-file" />
+    <button type="submit">Encrypt File</button>
+  </form>
+
+  <h3>Decrypt a File</h3>
+  <form id="decrypt-form">
+    <input type="file" id="decrypt-file" />
+    <button type="submit">Decrypt File</button>
+  </form>
+
   <script src="websocket_client.js"></script>
 </body>
 </html>
